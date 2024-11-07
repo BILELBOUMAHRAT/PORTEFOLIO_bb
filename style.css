@@ -1,29 +1,92 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Commentaire du code ignoré avec slash etoile */
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+}
 
-
-
-/* Sélecteur d'élément */
-h1 {
-    color: red;  /* mettre le niveau de titre 1 en rouge*/
-    font-size: 60px;
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-  
 }
 
-/* Sélecteur de classe */
-.important {
-    font-weight: bold;  /*met en gras*/
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
-/* Sélecteur d'ID */
-#citation {
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Biographie */
+.biographie {
+    background-color: #fff;
+    margin: 20px 0;
     padding: 20px;
-    color: grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.biographie h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
 
-p {
-    background-color: #FBF8F6;
+.biographie p {
+    font-size: 1.2em;
+    color: #555;
+}
 
+/* Section Passions */
+.interests {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.interests h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.passion {
+    margin-bottom: 15px;
+}
+
+.passion h3 {
+    font-size: 1.4em;
+    color: #4CAF50;
+}
+
+.passion p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
